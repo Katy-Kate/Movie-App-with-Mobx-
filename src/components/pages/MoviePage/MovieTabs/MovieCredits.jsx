@@ -45,6 +45,8 @@ export default class MovieCredits extends React.Component {
                       </div>
                     </div>
                   );
+                } else {
+                  return null;
                 }
               })
             : null}
